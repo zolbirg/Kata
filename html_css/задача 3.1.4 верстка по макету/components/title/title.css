@@ -1,0 +1,13 @@
+.title{
+    padding: 15px 0;
+    background: linear-gradient(to right, var( --bg-color-gray), white)
+}
+
+.title__text{
+font-family:var(--text-regular);
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.2px;
+text-transform: uppercase;
+
+}

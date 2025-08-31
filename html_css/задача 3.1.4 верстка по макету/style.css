@@ -121,9 +121,31 @@ input[type='file'] {
     url("./fonts/TTLakes-Medium.ttf") format("truetype"); 
     font-style: normal;  
     font-weight:400 500 700; 
-} 
 
-/* Root --------------------------*/
+}
+@font-face {  
+
+    font-family: "TTLakesBold";  
+    src: url("./fonts/TTLakes-Bold.eot");  
+    src: url("./fonts/TTLakes-Bold.eot?#iefix")format("embedded-opentype"),  
+    url("./fonts/TTLakes-Bold.woff") format("woff"),  
+    url("./fonts/TTLakes-Bold.ttf") format("truetype"); 
+    font-style: bold;  
+    font-weight:400 500 700; 
+
+}
+@font-face {  
+
+    font-family: "TTLakesRegular";  
+    src: url("./fonts/TTLakes-Regular.eot");  
+    src: url("./fonts/TTLakes-Regular.eot?#iefix")format("embedded-opentype"),  
+    url("./fonts/TTLakes-Regular.woff") format("woff"),  
+    url("./fonts/TTLakes-Regular.ttf") format("truetype"); 
+    font-style: normal;  
+    font-weight:400 500 700; 
+
+}
+
 :root {
     --bg-color-gray: #F8F8F8;
 
@@ -132,11 +154,22 @@ input[type='file'] {
     --color-Gray-Dark: #6B7B84;
     --color-salat: #41F6D7;
     --color-salat-last: #B8FFEC;
+    
     --text-color-grey: #7E7E82;
     --text-color-black: #1B1C21;
 
+    --text-regular:"TTLakesRegular";
+    --text-Medium:"TTLakesMedium";
+    --text-Bold:"TTLakesBold";
+
 }
  
+body{
+   font-family: var(--text-regular);
+   font-size: 16px;
+   font-weight: 500;
+   color: var(--text-color-black);
+}
 /* Main Layout ------------------------ */
 .main-Layout {
     background-color: var(--bg-color-gray);
@@ -145,6 +178,7 @@ input[type='file'] {
 
 .section {
     margin: 0 20px;
+   
 }
 
 
