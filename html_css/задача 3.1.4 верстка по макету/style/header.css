@@ -34,7 +34,10 @@
     height: auto;
 }
 
-/* icon list */
+/* icon block */
+.icon__block {
+    display: flex;
+}
 .checkStatus {
     width: 16px;
     height: auto;
@@ -45,7 +48,7 @@
 
 
 @media (min-width: 320px) {
-    .icon__list--left {
+    .icon__block--left {
         display: none;
     }
     .header__separator--left{
@@ -54,7 +57,7 @@
 }
 
 @media (min-width: 768px) {
-    .icon__list--left {
+    .icon__block--left {
         display: flex;
     }
     .header__separator--left{

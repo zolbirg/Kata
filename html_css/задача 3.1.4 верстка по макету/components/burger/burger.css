@@ -3,7 +3,9 @@
 .burger--circle {
     flex-direction: column;
     align-items: start;
+    background-color: var(--color-Pink);
 }
+
 
 .burger__line {
     height: 2px;
