@@ -5,19 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/components/iconList/iconlist.css">
-    <link rel="stylesheet" href="/components/circle/circle.css">
-    <link rel="stylesheet" href="/components/burger/burger.css">
-    <link rel="stylesheet" href="/components/arrowLink/arrowLink.css">
+    <link rel="stylesheet" href="./components/circle/circle.css">
+    <link rel="stylesheet" href="./components/burger/burger.css">
+    <link rel="stylesheet" href="./components/arrowLink/arrowLink.css">
+    <link rel="stylesheet" href="./components/title/title.css">
+    <link rel="stylesheet" href="./components/btn/btn.css">
 
 
     <link rel="stylesheet" href="./style/header.css">
-    <link rel="stylesheet" href="./style/nav-menu.css">
     <link rel="stylesheet" href="./style/about.css">
+    <link rel="stylesheet" href="./style/brand.css">
+    <link rel="stylesheet" href="./style/service.css">
+    <link rel="stylesheet" href="./style/footer.css">
     <link rel="stylesheet" href="style.css">
 
 
-    <title>Document</title>
+    <title>service</title>
 </head>
 
 <body>
@@ -34,61 +37,36 @@
                 <span class="header__separator header__separator--left"></span>
 
                 <a href="#" class="logo__link">
-                    <img class="logo__image" src="./image/header/logo/image.png" alt="logo">
+                    <img class="logo__image" src="./image/header/logo/logo.svg" alt="logo">
                 </a>
 
             </div>
             <div class="header__block">
-                <ul class="icon__list icon__list--left ">
-                    <li class="icon__item ">
 
-                        <a href="#" class="icon__link">
-                            <span class="circle">
-                                <span class="icon__img icon__img--call" ></span>
-                                <!-- <img class="icon__img call" src="./image/icon/call.png" alt="call"> -->
-                            </span>
-                        </a>
-                    </li>
-                    <li class="icon__item">
+                <div class="icon__block icon__block--left">
+                    <a href="#" class="icon__link">
+                        <span class="circle circle--pink circle--size circle--call  "></span>
+                    </a>
+                    <a href="#" class="icon__link">
+                        <span class="circle circle--pink circle--size circle--message "></span>
+                    </a>
+                    <a href="#" class="icon__link">
+                        <span class="circle circle--pink circle--size circle--people"></span>
+                    </a>
 
-                        <a href="#" class="icon__link">
-                            <span class="circle ">
-                                <span class="icon__img icon__img--message" ></span>
-                            </span>
-                        </a>
-                    </li>
-                    <li class="icon__item">
-
-                        <a href="#" class="icon__link">
-                            <span class="circle">
-                                <span class="icon__img icon__img--people" ></span>
-                            </span>
-                        </a>
-                    </li>
-
-                </ul>
-
+                </div>
 
                 <span class="header__separator header__separator--right"></span>
 
-                <ul class="icon__list icon__list--right ">
-                    <li class="icon__item ">
+                <div class="icon__block icon__block--right">
+                    <a href="#" class="icon__link">
+                        <span class="circle circle--pink circle--size circle--repair"></span>
+                    </a>
+                    <a href="#" class="icon__link">
+                        <span class="circle circle--pink circle--size circle--checkStatus "></span>
+                    </a>
 
-                        <a href="#" class="icon__link">
-                            <span class="circle">
-                                <span class="icon__img icon__img--repair" ></span>
-                            </span>
-                        </a>
-                    </li>
-                    <li class="icon__item">
-
-                        <a href="#" class="icon__link">
-                            <span class="circle ">
-                               <span class="icon__img icon__img--checkStatus" ></span>
-                            </span>
-                        </a>
-                    </li>
-                </ul>
+                </div>
             </div>
         </div>
 
@@ -100,89 +78,309 @@
     </header>
     <main>
         <div class="main-Layout">
-            <section class="nav-menu">
-                <div class="nav-menu__block">
-                    <div class="nav-menu__title">
-                        <span class="nav-menu__title--line"></span>
+            <section class="about">
+                <div class="title__block--about">
+                    <div class="title--about">
+                        <span class="title__line--about"></span>
                         <h1>Услуги и сервисы</h1>
 
                     </div>
-                    <ul class="icon__list icon__list--nav-menu ">
-                        <li class="icon__item ">
-
-                            <a href="#" class="icon__link icon__link--nav-menu">
-                                <p class="icon__text icon__text--nav-menu">Оставить заявку</p>
-                                <span class="circle">
-                                    <span class="icon__img icon__img--repair" ></span>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="icon__item">
-
-                            <a href="#" class="icon__link icon__link--nav-menu">
-                                <p class="icon__text icon__text--nav-menu">Статус ремонта</p>
-                                <span class="circle ">
-                                    <span class="icon__img icon__img--checkStatus" ></span>
-                                </span>
-                            </a>
-                        </li>
-
-
-                    </ul>
-                </div>
-
-
-                <div class="section">
-
-                    <ul class="nav-menu__slide--list ">
-                        <li class="nav-menu__slide--item nav-menu__slide--active">
-                            <a href="#" class="nav-menu__slide--link">Ремонтируемые бренды</a>
-                        </li>
-                        <li class="nav-menu__slide--item">
-                            <a href="#" class="nav-menu__slide--link">Ремонтируемые устройства</a>
-                        </li>
-                        <li class="nav-menu__slide--item">
-                            <a href="#" class="nav-menu__slide--link">Цены на услуги</a>
-                        </li>
-                        <li class="nav-menu__slide--item">
-                            <a href="#" class="nav-menu__slide--link">Адреса сервисных центров</a>
-                        </li>
-                        <li class="nav-menu__slide--item">
-                            <a href="#" class="nav-menu__slide--link">Специальные цены</a>
-                        </li>
-                        <li class="nav-menu__slide--item">
-                            <a href="#" class="nav-menu__slide--link">Дополнительные услуги</a>
-                        </li>
-                        <li class="nav-menu__slide--item">
-                            <a href="#" class="nav-menu__slide--link">Отзовы</a>
-                        </li>
-                    </ul>
-
-            </section>
-            <section class="about section">
-                <div class="about__block">
-                    <div class="about__block--text">
-                        <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете
-                            отремонтировать свой ноутбук Dell с официальной гарантией производителя.<br><br>
-
-                            Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает
-                            большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по
-                            рекомендациям
-                            и, в свою очередь, советуют нас родным и близким.</p>
-                    </div>
-                    <div class="arrow-link">
-                        <a href="#" class="arrow-link__link">
-                            <img class="arrow-link__image" src="./image/main/linkArrow/arrow.png" alt="arrow">
-                            <p class="arrow-link__text">Читать далее</p>
+                    <div class="icon__block--about">
+                        <a href="#" class="icon__link icon__link--about">
+                            <p class="icon__text icon__text--about">Оставить заявку</p>
+                            <span class="circle circle--pink circle--size circle--repair"></span>
+                        </a>
+                        <a href="#" class="icon__link icon__link--about">
+                            <p class="icon__text icon__text--about">Статус ремонта</p>
+                            <span class="circle circle--pink circle--size circle--checkStatus"></span>
                         </a>
                     </div>
                 </div>
 
-                <img class="about__image" src="./image/main/content/about-content.png" alt="foto">
+                <div class="section">
+
+                    <ul class="slide-menu__list ">
+                        <li class="slide-menu__item slide-menu__item--active">
+                            <a href="#" class="slide-menu__link">Ремонтируемые бренды</a>
+                        </li>
+                        <li class="slide-menu__item">
+                            <a href="#" class="slide-menu__link">Ремонтируемые устройства</a>
+                        </li>
+                        <li class="slide-menu__item">
+                            <a href="#" class="slide-menu__link">Цены на услуги</a>
+                        </li>
+                        <li class="slide-menu__item">
+                            <a href="#" class="slide-menu__link">Адреса сервисных центров</a>
+                        </li>
+                        <li class="slide-menu__item">
+                            <a href="#" class="slide-menu__link">Специальные цены</a>
+                        </li>
+                        <li class="slide-menu__item">
+                            <a href="#" class="slide-menu__link">Дополнительные услуги</a>
+                        </li>
+                        <li class="slide-menu__item">
+                            <a href="#" class="slide-menu__link">Отзовы</a>
+                        </li>
+                    </ul>
+
+
+                    <div class="about__block--position  ">
+                        <div class="about__content">
+                            <article class="about__text">
+                                <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы
+                                    можете
+                                    отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+                                </p>
+
+                                <p>
+                                    Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что
+                                    подтверждает
+                                    большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по
+                                    рекомендациям
+                                    и, в свою очередь, советуют нас родным и близким.</p>
+
+
+                            </article>
+                            <div class="arrow-link">
+                                <a href="#" class="arrow-link__link">
+                                    <img class="arrow-link__image" src="./image/main/linkArrow/arrow.png" alt="arrow">
+                                    <p class="arrow-link__text">Читать далее</p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <img class="about__image" src="./image/main/content/about-content.jpg" alt="foto">
+                    </div>
             </section>
+            <section class="brand section ">
+                <div class="title">
+                    <p class="title__text">
+                        Ремонт техники различных брендов
+                    </p>
+                </div>
+                <div class="brand__block">
+                    <div class="swiper--brand">
+                        <ul class="card__list card__list--brand">
+                            <li class="card__item--brand">
+                                <div class="card__content">
+
+                                    <div class="card__img card__img--lenovo"></div>
+                                </div>
+                                <div class="btn ">
+                                    <a href="#" class="btn__link">
+                                        <span class="btn__circle circle">
+                                            <span class="btn__img btn__img--arrowPink"></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="card__item--brand">
+                                <div class="card__content">
+
+                                    <div class="card__img card__img--samsung"></div>
+                                </div>
+                                <div class="btn ">
+                                    <a href="#" class="btn__link">
+                                        <span class="btn__circle circle">
+                                            <span class="btn__img btn__img--arrowPink"></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="card__item--brand">
+                                <div class="card__content">
+
+                                    <div class="card__img card__img--apple"></div>
+                                </div>
+                                <div class="btn ">
+                                    <a href="#" class="btn__link">
+                                        <span class="btn__circle circle">
+                                            <span class="btn__img btn__img--arrowPink"></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="card__item--brand">
+                                <div class="card__content">
+
+                                    <div class="card__img card__img--viewSonic"></div>
+                                </div>
+                                <div class="btn ">
+                                    <a href="#" class="btn__link">
+                                        <span class="btn__circle circle">
+                                            <span class="btn__img btn__img--arrowPink"></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="card__item--brand">
+                                <div class="card__content">
+
+                                    <div class="card__img card__img--bosch"></div>
+                                </div>
+                                <div class="btn ">
+                                    <a href="#" class="btn__link">
+                                        <span class="btn__circle circle">
+                                            <span class="btn__img btn__img--arrowPink"></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="card__item--brand">
+                                <div class="card__content">
+
+                                    <div class="card__img card__img--hp"></div>
+                                </div>
+                                <div class="btn ">
+                                    <a href="#" class="btn__link">
+                                        <span class="btn__circle circle">
+                                            <span class="btn__img btn__img--arrowPink"></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="card__item--brand">
+                                <div class="card__content">
+
+                                    <div class="card__img card__img--acer"></div>
+                                </div>
+                                <div class="btn ">
+                                    <a href="#" class="btn__link">
+                                        <span class="btn__circle circle">
+                                            <span class="btn__img btn__img--arrowPink"></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="card__item--brand">
+                                <div class="card__content">
+
+                                    <div class="card__img card__img--sony"></div>
+                                </div>
+                                <div class="btn ">
+                                    <a href="#" class="btn__link">
+                                        <span class="btn__circle circle">
+                                            <span class="btn__img btn__img--arrowPink"></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="arrow-link">
+                    <a href="#" class="arrow-link__link">
+                        <img class="arrow-link__image" src="./image/main/linkArrow/arrow.png" alt="arrow">
+                        <p class="arrow-link__text">Показать все</p>
+                    </a>
+                </div>
+            </section>
+            <section class="service section ">
+                <div class="title">
+                    <p class="title__text">
+                        Ремонт различных видов техники
+                    </p>
+                </div>
+                <div class="service__block">
+                    <div class="swiper--service">
+                        <ul class="card__list card__list--service">
+                            <li class="card__item--service">
+                                <div class="card__content">
+
+                                    <div class="card__text">
+                                        <p>
+                                            Ремонт ноутбуков
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="btn ">
+                                    <a href="#" class="btn__link">
+                                        <span class="btn__circle circle">
+                                            <span class="btn__img btn__img--arrowPink"></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="card__item--service">
+                                <div class="card__content">
+
+                                    <div class="card__text">
+                                        <p>
+                                            Ремонт планшетов
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="btn ">
+                                    <a href="#" class="btn__link">
+                                        <span class="btn__circle circle">
+                                            <span class="btn__img btn__img--arrowPink"></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="card__item--service">
+                                <div class="card__content">
+
+                                    <div class="card__text">
+                                        <p>
+                                            Ремонт ПК
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="btn ">
+                                    <a href="#" class="btn__link">
+                                        <span class="btn__circle circle">
+                                            <span class="btn__img btn__img--arrowPink"></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="card__item--service">
+                                <div class="card__content">
+
+                                    <div class="card__text">
+                                        <p>
+                                            Ремонт мониторов
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="btn ">
+                                    <a href="#" class="btn__link">
+                                        <span class="btn__circle circle">
+                                            <span class="btn__img btn__img--arrowPink"></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="arrow-link">
+                    <a href="#" class="arrow-link__link">
+                        <img class="arrow-link__image" src="./image/main/linkArrow/arrow.png" alt="arrow">
+                        <p class="arrow-link__text">Показать все</p>
+                    </a>
+                </div>
+
+            </section>
+
         </div>
     </main>
     <Footer>
+        <div class="footer__layout">
+            <div class="footer__text">
+                <p>© 2019 CPS
+                    Разработано командой Apesong </p>
+            </div>
+            <div class="footer__text">
+                <p>Политика конфиденциальности </p>
+            </div>
+            <div class="footer__text">
+                <p>Информация, размещенная на данной странице, не является публичной офертой</p>
+            </div>
+        </div>
     </Footer>
 
 </body>
