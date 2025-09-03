@@ -167,7 +167,7 @@ input[type='file'] {
  
 body{
    font-family: var(--text-regular);
-   font-size: 16px;
+   font-size: 20px;
    font-weight: 500;
    color: var(--text-color-black);
 }

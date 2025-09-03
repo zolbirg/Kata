@@ -1,4 +1,5 @@
-.circle{
+
+/* .circle{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,18 +8,18 @@
     border-radius: 50%;
     margin-right: 15px;
     
-}
+} */
 
-.circle--pink{
+/* .circle--pink{
    background: var(--color-Pink);
 }
-.circle--size{
+.btn__circle--bg-size{
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: center center;
  }
  
-.circle--call{  
+.btn__circle--call{  
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: center center; 
@@ -39,4 +40,4 @@
 
 .circle--checkStatus{  
    background-image: url("../../image/icon/checkStatus.png");
-}
+} */
