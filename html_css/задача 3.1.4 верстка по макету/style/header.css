@@ -1,6 +1,6 @@
 /* header ------------------------ */
 
-.header__Layout {
+.header__layout {
     display: flex;
     justify-content: space-between;
     align-items: center;

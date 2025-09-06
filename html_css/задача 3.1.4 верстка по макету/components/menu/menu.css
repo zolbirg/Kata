@@ -37,7 +37,7 @@
 
 @media (min-width: 1120px) {
     
-    .slide-menu {
+    .menu__list {
         overflow-y: hidden;
         overflow-x: hidden;
     }
