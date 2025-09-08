@@ -6,8 +6,6 @@
 @import url("./components/card/card.css");
 @import url("./components/table/table.css");
 
-
-
 /* page */
 @import url("./style/resetStyle.css");
 @import url("./style/fonts.css");
@@ -35,7 +33,6 @@
 
     --text-regular:"TTLakesRegular";
     --text-Medium:"TTLakesMedium";
-    --text-Compressed-Medium:"TT Lakes Compressed";
     --text-Bold:"TTLakesBold";
 }
  
@@ -48,9 +45,11 @@ body{
    background: var(--bg-color-gray);
 }
 
-/* Main Layout ------------------------ */
+/* Main  ------------------------ */
+
 .main-Layout {
     background-color: var(--bg-color-gray);
+    
 }
 .container {
     max-width: 1300px;
@@ -61,6 +60,8 @@ body{
 .container--mb-3r{
     margin-bottom: 3rem;
 }
+
+
 
 
 

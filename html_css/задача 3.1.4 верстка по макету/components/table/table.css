@@ -34,7 +34,7 @@ color: var(--text-color-black);
 }
 table td {
     white-space:nowrap ;
-    padding: 2rem 2rem;
+    padding: 2rem .5rem;
 
 }
 .table__repair{

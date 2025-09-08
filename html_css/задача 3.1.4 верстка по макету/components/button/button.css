@@ -2,6 +2,11 @@
    border: 2px solid var(--color-Pink);
    background-color: white;
 } */
+
+.btn:hover{
+transition: transform 0.2s ease;
+ transform: scale(110%)
+}
 .btn--ml {
     margin-left: 1rem;
 }
@@ -67,7 +72,6 @@
 }
 
 .btn--oval {
-    max-width: 140px;
     border-radius: 3rem;
 }
 

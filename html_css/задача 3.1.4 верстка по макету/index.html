@@ -11,10 +11,50 @@
 </head>
 
 <body>
-    <aside class="side-menu">
+  
+
+    <header class="header">
+        <div class="header__layout">
+            <div class="header__block">
+
+                <button class="btn btn--burger btn--circle btn--mr"  id="#burger" >
+                    <span class="btn__line--burger  btn__line--line1"></span>
+                    <span class="btn__line--burger  btn__line--line2"></span>
+                    <span class="btn__line--burger  btn__line--line3"></span>
+                </button>
+
+                <span class="header__separator header__separator--left"></span>
+                <div class="logo">
+                    <a href="#" class="logo__link">
+                        <img class="logo__image" src="./image/logo/logo.svg" alt="logo">
+                    </a>
+                </div>
+            </div>
+            <div class="header__block">
+
+                <div class="header__icon header__icon--left">
+                    <button class="btn btn--circle btn--pink btn--bg btn--bg-size--m btn--mr  btn--call "></button>
+                    <button class="btn btn--circle btn--pink btn--bg btn--bg-size--m btn--mr btn--message "></button>
+                    <button class="btn btn--circle btn--pink btn--bg btn--bg-size--m btn--mr btn--people "></button>
+                </div>
+                <span class="header__separator header__separator--right"></span>
+
+                <div class="header__icon header__icon--right">
+                    <button class="btn btn--circle btn--pink btn--bg btn--bg-size--m btn--mr btn--repair "></button>
+                    <button
+                        class="btn btn--circle btn--pink btn--bg btn--bg-size--m btn--mr btn--checkStatus "></button>
+                </div>
+            </div>
+        </div>
+
+
+
+    </header>
+    <main>
+          <aside class="side-menu"  id="#side-menu">
         <div class="side-menu__layout">
             <div class="side-menu__block">
-                <button class="btn btn--circle btn--pink btn--bg btn--bg-size--m  btn--exit "></button>
+                <button class="btn btn--circle btn--pink btn--bg btn--bg-size--m  btn--exit " id="#exit" ></button>
                 <div class="logo">
                     <a href="#" class="logo__link">
                         <img class="logo__image" src="./image/logo/logo.svg" alt="logo">
@@ -70,10 +110,11 @@
                     <button class="btn btn--circle btn--pink btn--bg btn--bg-size--m btn--mr btn--people "></button>
             </div>
             <div class="side-menu__mail">
-                <p>mail@cps.com</p>
+                <a href="#">mail@cps.com</a>
             </div>
             <div class="side-menu__phone">
-                <p>8 800 890 8900</p>
+                <a href="#">8 800 890 8900</a>
+               
             </div>
             <div class="side-menu__lang">
                 <button>RU</button>
@@ -81,47 +122,11 @@
                 <button>CH</button>
             </div>
         </div>
-
     </aside>
 
-    <header class="header">
-        <div class="header__layout">
-            <div class="header__block">
-
-                <button class="btn btn--burger btn--circle btn--mr">
-                    <span class="btn__line--burger  btn__line--line1"></span>
-                    <span class="btn__line--burger  btn__line--line2"></span>
-                    <span class="btn__line--burger  btn__line--line3"></span>
-                </button>
-
-                <span class="header__separator header__separator--left"></span>
-                <div class="logo">
-                    <a href="#" class="logo__link">
-                        <img class="logo__image" src="./image/logo/logo.svg" alt="logo">
-                    </a>
-                </div>
-            </div>
-            <div class="header__block">
-
-                <div class="header__icon header__icon--left">
-                    <button class="btn btn--circle btn--pink btn--bg btn--bg-size--m btn--mr  btn--call "></button>
-                    <button class="btn btn--circle btn--pink btn--bg btn--bg-size--m btn--mr btn--message "></button>
-                    <button class="btn btn--circle btn--pink btn--bg btn--bg-size--m btn--mr btn--people "></button>
-                </div>
-                <span class="header__separator header__separator--right"></span>
-
-                <div class="header__icon header__icon--right">
-                    <button class="btn btn--circle btn--pink btn--bg btn--bg-size--m btn--mr btn--repair "></button>
-                    <button
-                        class="btn btn--circle btn--pink btn--bg btn--bg-size--m btn--mr btn--checkStatus "></button>
-                </div>
-            </div>
-        </div>
 
 
 
-    </header>
-    <main>
         <div class="main-Layout">
             <section class="about">
                 <div class="container">
@@ -132,9 +137,9 @@
                         </div>
 
                         <div class="about__icon ">
-                            <label class="btn--theme-about"> Оставить заявку <button
+                            <label class="btn btn--theme-about"> Оставить заявку <button
                                     class="btn btn--ml  btn--circle btn--pink btn--bg btn--bg-size--m btn--mr btn--repair "></button></label>
-                            <label class="btn--theme-about"> Статус ремонта <button
+                            <label class="btn btn--theme-about"> Статус ремонта <button
                                     class="btn btn--ml  btn--circle btn--pink btn--bg btn--bg-size--m btn--mr btn--checkStatus "></button></label>
                         </div>
                     </div>
@@ -163,32 +168,7 @@
                         </ul>
                     </nav>
 
-
-                    <!-- <div class="slide-menu">
-                        <button class="btn btn--slide-menu btn--slide-menu--active">
-                            Ремонтируемые бренды
-                        </button>
-                        <button class="btn btn--slide-menu">
-                            Ремонтируемые устройства
-                        </button>
-                        <button class="btn btn--slide-menu">
-                            Цены на услуги
-                        </button>
-                        <button class="btn btn--slide-menu">
-                            Адреса сервисных центров
-                        </button>
-                        <button class="btn btn--slide-menu">
-                            Специальные цены
-                        </button>
-                        <button class="btn btn--slide-menu">
-                            Дополнительные услуги
-                        </button>
-                        <button class="btn btn--slide-menu">
-                            Отзовы
-                        </button>
-                    </div> -->
-
-                    <div class="about__block--position  ">
+                    <div class="about__block about__block--position  ">
                         <div class="about__content">
                             <article class="about__text">
                                 <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы
@@ -217,49 +197,49 @@
             <section class="brand ">
                 <div class="container container--mb-3r">
                     <div class="title title--bg-style ">
-                        <p class="title__text">
+                        <h2 class="title__text">
                             Ремонт техники различных брендов
-                        </p>
+                        </h2>
                     </div>
                     <div class="brand__block">
                         <div class="swiper swiper--theme-brand">
                             <ul class="card__list card__list--brand">
-                                <li class="card__item--brand">
+                                <li class="card__item card__item--brand">
                                     <span class="card__img card__img--lenovo"></span>
                                     <button
                                         class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
                                 </li>
-                                <li class="card__item--brand">
+                                <li class="card__item card__item--brand">
                                     <span class="card__img card__img--samsung"></span>
                                     <button
                                         class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
                                 </li>
-                                <li class="card__item--brand">
+                                <li class="card__item card__item--brand">
                                     <span class="card__img card__img--apple"></span>
                                     <button
                                         class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
                                 </li>
-                                <li class="card__item--brand">
+                                <li class="card__item card__item--brand">
                                     <span class="card__img card__img--viewSonic"></span>
                                     <button
                                         class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
                                 </li>
-                                <li class="card__item--brand">
+                                <li class="card__item card__item--brand">
                                     <span class="card__img card__img--bosch"></span>
                                     <button
                                         class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
                                 </li>
-                                <li class="card__item--brand">
+                                <li class="card__item card__item--brand">
                                     <span class="card__img card__img--hp"></span>
                                     <button
                                         class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
                                 </li>
-                                <li class="card__item--brand">
+                                <li class="card__item card__item--brand">
                                     <span class="card__img card__img--acer"></span>
                                     <button
                                         class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
                                 </li>
-                                <li class="card__item--brand">
+                                <li class="card__item card__item--brand">
                                     <span class="card__img card__img--sony"></span>
                                     <button
                                         class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
@@ -276,15 +256,36 @@
             <section class="service">
                 <div class="container container--mb-3r">
                     <div class="title title--bg-style ">
-                        <p class="title__text">
+                        <h2 class="title__text">
                             Ремонт различных видов техники
-                        </p>
+                        </h2>
                     </div>
 
                     <div class="service__block">
                         <div class="swiper swiper--theme-brand">
                             <ul class="card__list card__list--brand">
-                                <li class="card__item--service ">
+                                <li class="card__item card__item--service ">
+                                    <p class="card__text">
+                                        Ремонт ноутбуков
+                                    </p>
+                                    <button
+                                        class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+                                </li>
+                                <li class="card__item card__item--service ">
+                                    <p class="card__text">
+                                        Ремонт ноутбуков
+                                    </p>
+                                    <button
+                                        class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+                                </li>
+                                <li class="card__item card__item--service ">
+                                    <p class="card__text">
+                                        Ремонт ноутбуков
+                                    </p>
+                                    <button
+                                        class="btn btn--circle btn--bdr-pink btn--bg btn--bg-size--s btn--arrow-pink "></button>
+                                </li>
+                                <li class="card__item card__item--service ">
                                     <p class="card__text">
                                         Ремонт ноутбуков
                                     </p>
@@ -303,21 +304,21 @@
             <section class="price">
                 <div class="container container--mb-3r">
                     <div class="title title--bg-style ">
-                        <p class="title__text">
+                        <h2 class="title__text">
                             цены на услуги
-                        </p>
+                        </h2>
                     </div>
                     <table class="table table--price">
-                        <thead class="table__head--price">
-                            <tr class="table__row--head ">
+                        <thead class="table__head table__head--price">
+                            <tr class="table__row table__row--head ">
                                 <td class="table__repair">Ремонтные услуги</td>
                                 <td class="table__price">Цена</td>
                                 <td class="table__date">Срок</td>
                                 <td class="table__btn"></td>
                             </tr>
                         </thead>
-                        <tbody class="table__body--price">
-                            <tr class="table__row">
+                        <tbody class="table__body table__body--price">
+                            <tr class="table__row table__row">
                                 <td class="table__repair">Диагностика</td>
                                 <td class="table__price">Бесплатно</td>
                                 <td class="table__date">30 мин</td>
@@ -390,5 +391,5 @@
     </Footer>
 
 </body>
-
+<script src="./components/button/button.js"></script>
 </html>

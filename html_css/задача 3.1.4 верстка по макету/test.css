@@ -1,1 +1,22 @@
-
+ul{
+    width: 200px;
+    list-style: none;
+    margin: 0 30px;
+}
+li{
+    background: #2980b9;
+    border: 1px solid #2c3e50;
+    
+    padding: 10px;
+   
+}
+li a{
+    text-decoration: none;
+     color:white;
+}
+li .active{
+    background: #1abc9c;
+}
+li:hover{
+    background: #2ecc71;
+}
