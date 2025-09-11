@@ -1,21 +1,24 @@
-
 @import url("./components/button/button.css");
 @import url("./components/logo/logo.css");
 @import url("./components/menu/menu.css");
 @import url("./components/title/title.css");
 @import url("./components/card/card.css");
 @import url("./components/table/table.css");
+@import url("./components/input/input.css");
 
 /* page */
 @import url("./style/resetStyle.css");
 @import url("./style/fonts.css");
+
 @import url("./style/header.css");
 @import url("./style/about.css");
 @import url("./style/brand.css");
 @import url("./style/service.css");
 @import url("./style/price.css");
 @import url("./style/footer.css");
+
 @import url("./style/sideMenu.css");
+@import url("./style/modal.css");
 
 
 :root {
@@ -27,42 +30,36 @@
     --color-salat: #41F6D7;
     --color-salat-last: #B8FFEC;
     --color-salat-border: #D9FFF5;
-    
     --text-color-grey: #7E7E82;
     --text-color-black: #1B1C21;
 
-    --text-regular:"TTLakesRegular";
-    --text-Medium:"TTLakesMedium";
-    --text-Bold:"TTLakesBold";
+    --text-regular: "TTLakesRegular";
+    --text-Medium: "TTLakesMedium";
+    --text-Bold: "TTLakesBold";
 }
- 
-body{
-   
-   font-family: var(--text-regular);
-   font-size: 20px;
-   font-weight: 500;
-   color: var(--text-color-black);
-   background: var(--bg-color-gray);
+
+body {
+
+    font-family: var(--text-regular);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--text-color-black);
+    background: var(--bg-color-gray);
 }
 
 /* Main  ------------------------ */
 
 .main-Layout {
     background-color: var(--bg-color-gray);
-    
+
 }
+
 .container {
     max-width: 1300px;
-    padding: 0 2rem;
-    margin: 0 auto;  
+    padding: 0 1.2rem;
+    margin: 0 auto;
 }
 
-.container--mb-3r{
+.container--mb-3r {
     margin-bottom: 3rem;
 }
-
-
-
-
-
-

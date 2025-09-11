@@ -1,7 +1,7 @@
-.side-menu--open{
+.side-menu.open{
     display: inherit;
 }
-.side-menu--close{
+.side-menu.close{
     display: none;
 }
 
@@ -93,7 +93,7 @@ color: var(--text-color-black);
 }
 
 @media (min-width: 1120px) {
- .side-menu{
+.side-menu.close{
     display: inherit;
 }
 
@@ -103,7 +103,7 @@ color: var(--text-color-black);
     .side-menu__list {
     margin-bottom: 10rem;
 }
-.btn--exit{
+.side-menu__block > .btn--exit{
     display: none;
 }
    
