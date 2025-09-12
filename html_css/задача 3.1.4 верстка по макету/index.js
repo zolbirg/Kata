@@ -1,3 +1,4 @@
+
 const sideMenu = document.querySelector('.side-menu')
 const modal = document.querySelector('.modal');
 
@@ -42,3 +43,4 @@ function modalIsActive(value){
 
    
 }
+

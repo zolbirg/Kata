@@ -1,33 +1,20 @@
-.card__list--brand {
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 15px;
-    padding: 20px 0;
-}
 
-.card__item--brand {
+.card {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-width: 240px;
-    min-height: 72px;
+    min-width: 220px;
+    height: 72px;
     padding: 10px;
     background: white;
 }
 
-.card__item--service {
-    display: flex;
+.card--service {
     align-items: start;
-    justify-content: space-between;
-    min-width: 240px;
     min-height: 160px;
-    padding: 10px;
-    background: white;
 }
-.servicer{
-
-    align-items: end;  
+.card--service .btn--circle{
+    transform: translateY(90px);
 }
 
 
@@ -91,3 +78,4 @@
     height: 25px;
     background-image: url("../../image/content/sony.png");
 }
+

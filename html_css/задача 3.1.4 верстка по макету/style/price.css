@@ -1,12 +1,12 @@
 .price__text {
-    max-width: 421px;
+    max-width: 400px;
     margin-bottom: 1rem;
 }
 
-.price__text>p {
+.price__text > p {
     font-family: var(--text-regular);
     font-weight: 400;
-    font-size: 1rem;
+    font-size: .8rem;
     line-height: 20px;
     letter-spacing: 0.2px;
     color: var(--text-color-black);
@@ -18,7 +18,7 @@
     text-decoration: none;
     font-family: var(--text-Bold);
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1rem;
     line-height: 24px;
     letter-spacing: -0.2px;
     color: var(--text-color-black);

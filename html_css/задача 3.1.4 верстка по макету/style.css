@@ -21,6 +21,7 @@
 @import url("./style/modal.css");
 
 
+
 :root {
     --bg-color-gray: #F8F8F8;
 
@@ -50,16 +51,29 @@ body {
 /* Main  ------------------------ */
 
 .main-Layout {
-    background-color: var(--bg-color-gray);
-
-}
-
-.container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
     max-width: 1300px;
     padding: 0 1.2rem;
     margin: 0 auto;
+    background-color: var(--bg-color-gray);
 }
 
-.container--mb-3r {
-    margin-bottom: 3rem;
+
+
+
+
+@media (min-width: 320px) {
+   
 }
+
+@media (min-width: 768px) {
+   
+}
+
+@media (min-width: 1120px) {
+    
+}
+
+
